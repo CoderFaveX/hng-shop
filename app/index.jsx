@@ -123,7 +123,7 @@ const Index = () => {
             tabBarIcon: route.name,
           })}
         >
-          <Tab.Screen name="Home" options={{ headerShown: false }} component={Successful} />
+          <Tab.Screen name="Home" options={{ headerShown: false }} component={HomeScreen} />
           <Tab.Screen name="Cart" options={{ headerShown: false }} component={CartScreen} />
           <Tab.Screen name="CheckOutStack" options={{ headerShown: false }} component={CheckOutStack} />
         </Tab.Navigator>
