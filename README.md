@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# 🛒 HNG Shop - Your Ultimate Shopping Companion!
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to **HNG Shop**, a beautifully crafted shopping application built with React Native and Expo! Dive into a seamless shopping experience with an intuitive interface, modern design, and all the essential features you need for your shopping spree.
 
-## Get started
+## 🌟 Features
 
-1. Install dependencies
+- **Light & Modern UI**: Enjoy a clean and user-friendly interface with the Poppins font.
+- **Effortless Navigation**: Navigate through the app with ease using the Expo Router.
+- **Product Listings**: Browse through a variety of products fetched dynamically from the Timbu API.
+- **Cart Management**: Add, update, and remove items from your cart with a few taps.
+- **Responsive Design**: Optimized for both Android and iOS devices.
 
-   ```bash
+## 📱 Preview the App
+
+### Appetize.io
+Experience the app live without installation:
+[Open HNG Shop on Appetize.io](https://appetize.io/app/b_n4fmdpkkeqt5mljeoezhxhnniq)
+
+### Download the APK
+Install the app directly on your Android device:
+[Download HNG Shop APK](https://expo.dev/artifacts/eas/rJGffq4H6eh2HSJooeU4h5.apk)
+
+## 📸 Screenshots
+
+| Home Screen                           | Product Cart                      | CheckOut                          |
+|---------------------------------------|--------------------------------------|--------------------------------------|
+| ![Home](screen/home.png)  | ![Details](screen/cart.png) | ![Cart](screen/check.png)  |
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js
+- Expo CLI
+- Git
+
+### Installation
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/CoderFaveX/hng-shop.git
+   cd hng-shop
+   ```
+
+2. **Install dependencies**:
+   ```sh
    npm install
    ```
 
-2. Start the app
-
-   ```bash
-    npx expo start
+3. **Start the Expo server**:
+   ```sh
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+4. **Run on your device**:
+   - Use the Expo Go app on your phone to scan the QR code from the terminal or browser.
