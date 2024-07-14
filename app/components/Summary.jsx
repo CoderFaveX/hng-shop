@@ -48,7 +48,7 @@ const Summary = ({ cartItems }) => {
                 <MontText monttype={"Mont"} style={{ fontSize: 13, flex: 1 }}>Total Amount</MontText>
                 <MontText style={{ fontSize: 14, color: "#2A2A2A" }}>N {(subTotal + (0.05 * subTotal)) - (0.15 * subTotal)}</MontText>
             </View>
-            <TouchableOpacity style={styles.wideButton} onPress={() => navigation.navigate("CheckOutStack")}>
+            <TouchableOpacity style={styles.wideButton} onPress={() => navigation.navigate("CheckOut")}>
                 <MontText style={{ fontSize: 12.5 }}>CheckOut</MontText>
             </TouchableOpacity>
         </View>

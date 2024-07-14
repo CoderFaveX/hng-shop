@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MontText from "../components/MontText";
 import { Image, SafeAreaView, StyleSheet, ImageBackground, View, Dimensions } from "react-native";
 import Header from "../context/Header";
+import { overwrite } from "../context/Storage";
+import { useNavigation } from "@react-navigation/native";
 
 const Successful = () => {
     const { height: viewportHeight } = Dimensions.get('window');
+    const navigate = useNavigation();
+
+    useEffect(() => {
+        (async () => {
+            const response = await overwrite([]);
+            if (response) {
+                console.log("Payment Made");
+                setTimeout(() => navigate.navigate("Home"), 2500);
+            };
+        })();
+    }, []);
 
     return (
         <SafeAreaView style={styles.container}>

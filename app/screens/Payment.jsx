@@ -19,7 +19,7 @@ const Payment = () => {
             formData.cardNo.trim() !== "" &&
             formData.expiry.trim() !== "" &&
             formData.cvv.trim() !== "" &&
-            formData.cardNo.trim().length != 16
+            formData.cardNo.trim().length == 16
         ) {
             setIsDisabled(false);
         } else {
