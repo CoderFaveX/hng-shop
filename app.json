@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "shopping-app",
-    "slug": "hng-shop",
+    "name": "favi-shop",
+    "slug": "favi-shop",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/splash.png",
@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/images/splash.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.fave2009.hngshop"
+      "package": "com.fave2009.favi-shop"
     },
     "web": {
       "bundler": "metro",
