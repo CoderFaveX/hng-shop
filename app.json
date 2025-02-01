@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/images/splash.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.fave2009.favi-shop"
+      "package": "com.fave2009.favishop"
     },
     "web": {
       "bundler": "metro",
